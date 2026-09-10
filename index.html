@@ -53,3 +53,24 @@
   <script src="script.js"></script>
 </body>
 </html>
+<form id="sinifForm">
+    <input type="text" id="isim" placeholder="Adınız" required>
+
+    <input type="text" id="mesaj" placeholder="Mesajınız" required>
+
+    <button type="submit">Gönder</button>
+</form>
+
+<p id="sonuc"></p>
+
+<script>
+document.getElementById("sinifForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const isim = document.getElementById("isim").value;
+    const mesaj = document.getElementById("mesaj").value;
+
+    document.getElementById("sonuc").textContent =
+        isim + " tarafından gönderildi: " + mesaj;
+});
+</script>
