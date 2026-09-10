@@ -1,0 +1,1 @@
+function demoMessage(){document.getElementById('message').textContent='Bu bir tasarım demosudur; hesap bilgileri gönderilmez.'}

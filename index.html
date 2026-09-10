@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Instagram Giriş — Tasarım Demosu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="promo">
+      <div class="ig-logo" aria-label="Instagram">◎</div>
+      <div class="promo-content">
+        <h1><span>Yakın arkadaşlarımın</span> günlük<br>anlarını gör.</h1>
+        <div class="phone-stack">
+          <div class="card back left"></div>
+          <div class="card main">
+            <div class="fake-photo"></div>
+            <div class="reaction">💜 👀 😍</div>
+            <div class="heart">♥</div>
+          </div>
+          <div class="card back right"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-panel">
+      <div class="demo-badge">TASARIM DEMOSU</div>
+      <div class="login-box">
+        <h2>Instagram'a Giriş Yap</h2>
+
+        <input type="text" placeholder="Cep telefonu numarası, kullanıcı adı veya e-posta adresi" disabled>
+        <input type="password" placeholder="Şifre" disabled>
+        <button class="login" disabled>Giriş Yap</button>
+
+        <a href="#" onclick="return false;">Şifreni mi unuttun?</a>
+
+        <div class="divider"><span>VEYA</span></div>
+
+        <button class="facebook" type="button" onclick="demoMessage()">● &nbsp; Facebook ile giriş yap</button>
+        <button class="create" type="button" onclick="demoMessage()">Yeni hesap oluştur</button>
+
+        <div class="meta">∞ Meta</div>
+        <p id="message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Meta &nbsp; Hakkında &nbsp; Blog &nbsp; İş Fırsatları &nbsp; Yardım &nbsp; API &nbsp; Gizlilik &nbsp;
+    Koşullar &nbsp; Konumlar &nbsp; Popüler &nbsp; Instagram Lite &nbsp; Meta AI &nbsp; Threads
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
